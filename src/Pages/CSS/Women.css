@@ -1,0 +1,266 @@
+.women-container .men{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.programs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.women-container .women {
+    display: flex;
+    font: 24px "Helvetica Now Display Medium";
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.women-container .program img {
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+.women-container .program {
+    flex-basis: 50%;
+    position: relative;
+}
+
+.women-container .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    cursor: pointer;
+    padding-top: 70%;
+    margin-bottom: 100px;
+    margin-right: 500px;
+    transition: 0.4s;
+}
+
+.women-container .caption img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.women-container .caption .p {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.women-container .caption .p2 {
+    font-size: 25px;
+}
+
+.women-container button {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+
+
+.women-container .women {
+    display: flex;
+    font: 24px "Helvetica Now Display Medium";
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.women-container .program img {
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+.women-container .program {
+    flex-basis: 50%;
+    position: relative;
+}
+
+.women-container .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    cursor: pointer;
+    padding-top: 70%;
+    margin-bottom: 100px;
+    margin-right: 500px;
+    transition: 0.4s
+}
+
+.women-container .caption img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.women-container .caption .p {
+    font-weight: bold;
+}
+
+.women-container .caption .p2 {
+    font-size: 25px;
+}
+
+.women-container button {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.trending-container .women {
+    display: flex;
+    font: 24px "Helvetica Now Display Medium";
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.trending-container .program img {
+    width: 100%;
+    height: 100vh;
+    display: block;
+}
+
+.trending-container .program {
+    flex-basis: 50%;
+    position: relative;
+}
+
+.trending-container .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    cursor: pointer;
+    padding-top: 70%;
+    margin-bottom: 100px;
+    margin-right: 500px;
+    transition: 0.4s;
+    margin-left: 40px;
+    width: 60%;
+    text-align: justify;
+}
+
+.trending-container .caption img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.trending-container .caption .p {
+    font-weight: bold;
+}
+
+.trending-container .caption .p2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.trending-container .program .caption_2 {
+    margin-left: -50px;
+    text-align: justify;
+}
+
+.trending-container button {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.essential-container .women {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.essential-container .programs {
+    margin: 10px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.essential-container .program img {
+    width: 100%;
+    height: 70vh;
+    border-radius: 10px;
+    display: block;
+}
+
+.essential-container .program {
+    flex-basis: 33%;
+    margin-right: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.essential-container .caption {
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    cursor: pointer;
+    padding-top: 70%;
+    transition: 0.4s
+}
+
+.classical-images{
+    width: -301px;
+}
+
+@media (max-width: 600px) {
+    .container h2 {
+        font-size: 45px;
+    }
+
+    .programs {
+        display: block;
+    }
+
+    .program {
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 30px;
+    }
+}

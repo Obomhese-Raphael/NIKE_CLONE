@@ -1,0 +1,91 @@
+.membership-container h2{
+    margin-left: 50px;
+    font-size: 50px;
+    height: 100px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 500;
+    margin-top: 70px;
+}
+.membership-container .programs {
+    margin: 10px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.membership-container .program img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.membership-container .program {
+    flex-basis: 33%;
+    margin-right: 20px;
+    position: relative;
+}
+
+.membership-container .caption {
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    cursor: pointer;
+    padding-top: 70%;
+    transition: 0.4s
+}
+
+.membership-container .program:hover{
+    transform: scale(1.02);
+    transition: .55s;
+}
+
+.membership-container .caption img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.membership-container .caption .p{
+    font-weight: bold;    
+}
+
+.membership-container .caption .p2{
+    font-size: 25px;
+}
+
+.membership-container button{
+    padding: 10px 22px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.membership-container button:hover{
+    background-color: #c4c4c4;
+    transition: .45s;
+}
+
+@media (max-width: 600px) {
+    .container h2{
+        font-size: 45px;
+    }
+    .programs{
+        display: block;
+    }
+    .program{
+        justify-content: space-between;
+        margin: auto;
+        margin-top: 30px;
+    }
+}
