@@ -1,0 +1,105 @@
+.classics{    
+    padding: 0 80px;
+    position: relative;
+    margin: 80px auto;
+}
+.classics-section h2 {
+    margin-left: 50px;
+    font-size: 50px;
+    height: 100px;
+    font-family: "Anton SC", sans-serif;
+    font-weight: 500;
+    margin-top: 70px;
+}
+
+.next-btn,
+.back-btn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 15px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #c1c1c1;
+    color: #000;
+    margin: 10px;
+}
+.next-btn,
+.back-btn:hover{
+    background: #ada9a9;
+    transition: .43s
+}
+
+.back-btn {
+    right: auto;
+    left: 0;
+}
+
+.slider {
+    overflow: hidden;
+    width: 100%;
+}
+
+.slider ul {
+    display: flex;
+    width: 180%;
+    overflow-x: hidden;
+    transition: .5s;
+    transform: translateX(-0%);
+}
+
+.slider ul li {
+    list-style: none;
+    width: 25%;
+    height: 30%;
+}
+
+.slide {
+    box-shadow: 0 0 20px rgba(0, 0, 0, .05);
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.slide img {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.last-shoe{
+    margin-right: -100px;
+}
+
+@media (max-width: 600px) {
+    .classics-section h2{
+        font-size: 35px;
+        text-align: center;
+        margin-left: -50px;
+        width: 100%;
+    }
+    .next-btn,
+    .back-btn{
+        height: 40px;
+        width: 40px;
+        margin: 10px;
+    }
+    .slider{
+        width: 100%;
+    }
+    .slider ul{
+        height: 100%;
+        width: 500%;
+        position: relative;
+    }
+    .slider ul li{
+        width: 100%;
+        height: 50%;
+    }
+    .slide img {
+        width: 90%;
+        height: 90%;
+        border-radius: 10px;
+    }
+}

@@ -1,0 +1,50 @@
+
+.trending-imgs {
+    display: block;
+    width: 50%;
+    object-position: 50% 50%;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+}
+
+.trending-img {
+    flex: 0 0 50%;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    opacity: 1;
+    unicode-bidi: isolate;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    object-position: 50% 50%;
+}
+
+.trending-img img {
+    width: 50%;
+    position: relative;
+    border: 2px solid red;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+.trending-img-text {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.trending-img-text p,
+.trending-img-text button {
+    margin: 0;
+}
+
+.trending-img-text button {
+    margin-top: 10px;
+}
