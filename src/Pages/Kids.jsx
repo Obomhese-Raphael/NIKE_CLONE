@@ -31,7 +31,6 @@ import shoe_6 from "../assets/air-max.jpg"
 const Kids = () => {
     const responsive = {
         superLargeDesktop: {
-            // the naming can be any, depends on you.
             breakpoint: { max: 4000, min: 3000 },
             items: 5
         },
@@ -51,16 +50,16 @@ const Kids = () => {
   return (
     <div className="kids-container">
         <p className="kids">Trending</p>
-       <div className='programs' >
+       <div className='programs kids-explore'>
             <div className="program">
-                <img src={left_image} alt="" />
+                <img src={left_image} className="left-image" alt="" />
                 <div className="caption">   
                     <p className="p">New Arrivals</p>
                     <button>Shop</button>
                 </div>
             </div>
             <div className="program">
-                <img src={right_image} alt="" />
+                <img src={right_image} className="right-image" alt="" />
                 <div className="caption">
                     <p className="p">Jordans Latest</p>
                     <button>Shop</button>
@@ -114,7 +113,7 @@ const Kids = () => {
         <div className="sizes">
             <p className="kids pgh">Sizes For All</p>
             <Carousel 
-                className="sizes-images" 
+                className="sizes-images popular-images" 
                 responsive={responsive}
                 infinite={true}
                 swipeable={true}
@@ -168,15 +167,15 @@ const Kids = () => {
         </div>
         </div>
 
-        <div className="mini-classics">
+        <div className="mini-classics classics-container">
             <p className="mini-kids">Mini Classics</p>
             <Carousel 
-                className="kids-classic-images popular-images" 
+                className="kids-classic-images classics-images" 
                 responsive={responsive}
                 swipeable={true}
                 draggable={true}
                 infinite={true}
-                keyBoardControl={true}
+                keyBoardControl={true}   
                 transitionDuration={500}
                 itemClass="carousel-item-padding-40-px"
             >

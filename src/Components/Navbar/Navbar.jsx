@@ -42,7 +42,7 @@ const Navbar = () => {
             <input className="input" type="text" placeholder="Search" autoComplete="off" id="" />
             <img src={search_img} className="search-img" />
             <img
-              src={isFilled ? love_filled_icon : love_img} // 
+              src={isFilled ? love_filled_icon : love_img}
               className="love-img"
               alt="Love"
               onClick={handleClick}
@@ -55,5 +55,5 @@ const Navbar = () => {
     </div>
   )
 }
-
+   
 export default Navbar

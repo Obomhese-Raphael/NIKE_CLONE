@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="top-footer">
             <div className="section1">
                 <h4>Resources</h4>
-                <p>Gift Cards</p>
+                <p>Gift Cards</p> 
                 <p>Find a Store</p>
                 <p>Become a Member</p>
                 <p>Nike x NBA</p>

@@ -259,17 +259,35 @@
 }
 
 @media (max-width: 600px) {
-    .container h2 {
-        font-size: 45px;
+    .kids-container .kids {
+        font-size: 30px;
     }
-
-    .programs {
-        display: block;
+    .programs.kids-explore .program .left-image{
+        height: 465px;
+        width: 400px;
+        margin-bottom: 50px;
     }
-
-    .program {
-        justify-content: space-between;
+    .programs.kids-explore .program .right-image{
+        height: 465px;
+        width: 400px;
+    }
+    .programs.kids-explore .program .caption{
         margin: auto;
-        margin-top: 30px;
+        font-size: 20px;
+    }
+    .kids-container .popular-images{
+        width: 100%;
+        height: auto;
+        margin-left: -15px;
+    }
+    .essential-container .program{
+        width: 80%;
+        margin-left: 15px;
+        margin-bottom: 50px;
+    }
+    .classics-container .classics-images{
+        width: 100%;
+        height: auto;
+        margin-left: 20px;
     }
 }

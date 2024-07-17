@@ -263,4 +263,29 @@
         margin: auto;
         margin-top: 30px;
     }
+    .programs.women-explore .program .caption{
+        margin: auto;
+        padding-bottom: 50px;
+        font-size: 20px;
+    }
+    .programs.women-explore .program .left-img{
+        margin-bottom: -40px;
+        width: 430px;
+        height: 460px;
+    }
+    .programs.women-explore .program .right-img{
+        margin-bottom: -40px;
+        width: 430px;
+        height: 460px;
+    }
+    .programs.women-explore .program .second-left-img{
+        margin-bottom: -40px;
+        width: 430px;
+        height: 460px;
+    }
+    .programs.women-explore .program .second-right-img{
+        margin-bottom: -40px;
+        width: 430px;
+        height: 460px;
+    }
 }

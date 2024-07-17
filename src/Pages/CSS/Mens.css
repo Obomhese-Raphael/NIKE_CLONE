@@ -270,17 +270,48 @@
 
 
 @media (max-width: 600px) {
-    .container h2 {
-        font-size: 45px;
+    .men-container .men {
+        font-size: 30px;
     }
 
-    .programs {
-        display: block;
-    }
-
-    .program {
-        justify-content: space-between;
+    .programs.men-explore .program .left-img {
+        margin-bottom: -40px;
+        width: 400px;
+        height: 465px;
+    }    
+    .programs.men-explore .program .caption{
         margin: auto;
-        margin-top: 30px;
+        font-size: 20px;
+    }
+    .programs.men-explore .program .right-img{
+        width: 400px;
+        height: 465px;
+    }
+    .trending-container .men{
+        font-size: 30px;
+    }
+
+    .programs.men-trending .program .second-left-img{
+        width: 400px;
+        height: 465px;
+        margin-bottom: -40px;
+    }
+    .programs.men-trending .program .second-right-img{
+        width: 400px;
+        height: 465px;
+    }
+    .programs.men-trending .program .caption{
+        margin: auto;
+        padding-bottom: 60px;
+        font-size: 20px;
+    }
+    .classics-container .popular-images{
+        width: 100%;
+        height: auto;
+        margin-left: -20px;
+    }
+    .classics-container .men{
+        max-width: 200px;
+        margin-left: -15px;
     }
 }

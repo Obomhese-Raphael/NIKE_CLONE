@@ -77,15 +77,37 @@
 }
 
 @media (max-width: 600px) {
-    .container h2{
-        font-size: 45px;
+    .membership-container h2{
+        font-size: 30px;
+        margin-bottom: -30px;
     }
     .programs{
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
     .program{
         justify-content: space-between;
-        margin: auto;
+        margin: 15px;
         margin-top: 30px;
+        display: block;
+        border-radius: 10px;
+        width: 100%;
+        display: block;
+    }
+}
+
+@media (min-width: 760px) {
+    .programs .program{
+        display: flex;
+        margin: auto;
+        height: 500px;
+    }
+    .programs .program .caption{
+        margin: auto;
+        font-size: 20px;
+    }
+    .programs .program .caption .p2{
+        font-size: 15px;
     }
 }

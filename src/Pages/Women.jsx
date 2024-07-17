@@ -19,7 +19,6 @@ const Women = () => {
 
   const responsive = {
     superLargeDesktop: {
-        // the naming can be any, depends on you.
         breakpoint: { max: 4000, min: 3000 },
         items: 5
     },
@@ -40,16 +39,16 @@ const Women = () => {
   return (
     <div className="women-container">
         <p className="women">Explore Sport</p>
-       <div className='programs' >
+       <div className='programs women-explore'>
             <div className="program">
-                <img src={left_image} alt="" />
+                <img src={left_image} className="left-img" alt="" />
                 <div className="caption">   
                     <p className="p">Running</p>
                     <button>Shop</button>
                 </div>
             </div>
             <div className="program">
-                <img src={right_image} alt="" />
+                <img src={right_image} className="right-img" alt="" />
                 <div className="caption">
                     <p className="p">Soccer</p>
                     <button>Shop</button>
@@ -59,9 +58,9 @@ const Women = () => {
 
         <div className="trending-container">
           <p className="women">Trending</p>
-          <div className='programs' >
+          <div className='programs women-explore'>
             <div className="program">
-                <img src={second_left_image} alt="" />
+                <img src={second_left_image} className="second-left-img" alt="" />
                 <div className="caption">   
                     <p className="p">Nike Alate Bra</p>
                     <p className="p2">The Perfect Workout Partner</p>
@@ -69,7 +68,7 @@ const Women = () => {
                 </div>
             </div>
             <div className="program">
-                <img src={second_right_image} alt="" />
+                <img src={second_right_image} className="second-right-img" alt="" />
                 <div className="caption caption_2">
                     <p className="p">Nike Basketball Latest</p>
                     <p className="p2">Sabrina 2 &apos; Court Vision &apos;</p>
@@ -123,7 +122,7 @@ const Women = () => {
                 <div>
                     <img src={shoe_5} alt="" />
                 </div>
-                <div>
+                <div>   
                     <img src={shoe_6} alt="" />
                 </div>
             </Carousel>

@@ -105,9 +105,10 @@
 
 @media (max-width: 600px) {
     .navbar-items{
-        max-width: 100%;
+        width: 430px;
         background: #fff;
-        position: relative;
+        position: fixed;
+        margin-bottom: 40px;
     }
     .navbar-left-item .logo{
         margin-left: -20px;
@@ -121,7 +122,6 @@
         right: 0;
         bottom: 0;
         background: #c3c2c3;
-        z-index: -1;
         width: 220px;
         padding-top: 100px;
         flex-direction: column;
@@ -130,6 +130,7 @@
     .hide-mobile-menu{
         width: -200px;
         display: none;
+        z-index: 1;
         transition: .45s
     }
     .navbar-center-items ul li {
@@ -145,6 +146,7 @@
     .menu_icon{
         display: block;
         cursor: pointer;
+        position: fixed;
     }
     .input{
         display: none;
