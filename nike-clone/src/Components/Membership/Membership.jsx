@@ -14,13 +14,13 @@ const Membership = () => {
                     <p className="p">Member Product</p> <br />
                     <p className="p2">Your Exclusive Access</p>
                     <button>Shop</button>
-                </div>
+                </div>   
             </div>
             <div className="program">
                 <img src={img_7} alt="" />
                 <div className="caption">
                     <p className="p">Sport & Wellness App</p> <br />
-                    <p className="p2">Movement at where you are</p>
+                    <p className="p2">Movement at where you are</p>  
                     <button>Move</button>
                 </div>
             </div>

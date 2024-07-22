@@ -1,7 +1,5 @@
 import "./MenRow.css"
 
-
-
 const MenRow = () => {
   return (
     <div className='men-row'>

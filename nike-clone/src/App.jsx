@@ -2,9 +2,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Top from './Components/Top/Top'
 import Navbar from './Components/Navbar/Navbar'
 import Home from './Components/Home/Home'
-import Pegasus_41 from './Components/Pegasus_41/Pegasus_41'
-import Classics from './Components/Classics/Classics'
-import Membership from './Components/Membership/Membership'
 import Footer from './Components/Footer/Footer'
 import Signup from './Components/Pages/Signup/Signup'
 import ShopCategory from './Pages/ShopCategory'
@@ -18,7 +15,7 @@ import Kids from './Pages/Kids'
 import MenRow from './Components/MenRow/MenRow'
 import WomenRow from './Components/WomenRow/WomenRow'
 import KidsRow from './Components/KidsRow/KidsRow'
-import all_product from './Components/assets/all_product'
+import "../src/App.css"
 
 const App = () => {
   return (
@@ -27,14 +24,7 @@ const App = () => {
         <Top />
         <Navbar />
         <Routes>
-          <Route path='/' element={
-            <>
-              <Home />
-              <Pegasus_41 />
-              <Classics all_product={all_product}/>
-              <Membership />
-            </>
-          }/>
+          <Route path='/' element={ <Home />}/>
           <Route path="/mens" element={<ShopCategory page={<Mens />} banner={men_banner} footer_row={<MenRow />} category="mens" />} />
           <Route path="/womens" element={<ShopCategory page={<Women />}  banner={women_banner} footer_row={<WomenRow />} category="womens" />} />
           <Route path="/kids" element={<ShopCategory page={<Kids />} banner={kids_banner} footer_row={<KidsRow />} category="kids" />} />

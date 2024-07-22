@@ -105,9 +105,10 @@
 
 @media (max-width: 600px) {
     .navbar-items{
-        max-width: 100%;
         background: #fff;
-        position: relative;
+        position: fixed;
+        width: 100%;
+        margin-bottom: 40px;
     }
     .navbar-left-item .logo{
         margin-left: -20px;
@@ -130,7 +131,7 @@
     .hide-mobile-menu{
         width: -200px;
         display: none;
-        transition: .45s
+        transition: .45s;
     }
     .navbar-center-items ul li {
         display: block;
@@ -145,6 +146,7 @@
     .menu_icon{
         display: block;
         cursor: pointer;
+        position: fixed;
     }
     .input{
         display: none;

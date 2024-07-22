@@ -102,3 +102,20 @@
     display: flex;
     flex-direction: row;
 }
+
+
+
+@media (max-width: 600px) {
+    .banner-category .banner{
+        width: 100%;
+        height: 300px;
+        margin-top: 70px;
+    }
+    .shopcategory-indexSort .win{
+        font-size: 35px;
+    }
+    .shopcategory-indexSort .btns button{
+        font-size: 20px;
+    }
+    
+}

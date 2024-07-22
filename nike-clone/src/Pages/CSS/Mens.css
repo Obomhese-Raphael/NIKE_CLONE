@@ -5,7 +5,9 @@
     margin-bottom: 50px;
     justify-content: center;
 }
-
+*{
+    max-width: 100%;
+}
 .men-container .men{
     display: flex;
     font: 24px "Helvetica Now Display Medium";
@@ -62,9 +64,6 @@
     cursor: pointer;
     margin-top: 20px;
 }
-
-
-
 
 .men-container .men{
     display: flex;
@@ -192,6 +191,7 @@
     display: flex;
     font-weight: bolder;
     font: 20px "Helvetica Now Display Medium";
+    border: 5px;
 }
 
 .essential-container{
@@ -202,7 +202,25 @@
     margin-top: 100px;
 }
 
+.essential-container .men-programs {
+    margin: 10px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
 
+.essential-container .men-programs .under_name {
+    display: flex;
+}
+
+.essential-container .program img {
+    width: 100%;
+    height: 70vh;
+    display: block;
+    border-radius: 0px !important;
+}
 .essential-container .programs {
     margin: 10px auto;
     width: 90%;
@@ -263,24 +281,81 @@
     margin-top: -50px;
 }
 
-.carousel_img1{
-    padding-left: 50px;
+.men-classics{
+    font: 24px "Helvetica Now Display Medium";
+    display: flex;
+    margin-left: 100px;
 }
 
-
-
 @media (max-width: 600px) {
-    .container h2 {
-        font-size: 45px;
+    .men-container .men {
+        font-size: 30px;
     }
 
-    .programs {
-        display: block;
-    }
-
-    .program {
-        justify-content: space-between;
+    .programs.men-explore .program .left-img {
+        margin-bottom: -40px;
+        width: 430px;
+        height: 465px;
+    }    
+    .programs.men-explore .program .caption{
         margin: auto;
-        margin-top: 30px;
+        font-size: 20px;
+    }
+    .programs.men-explore .program .right-img{
+        width: 430px;
+        height: 465px;
+    }
+    .trending-container .men{
+        font-size: 30px;
+    }
+
+    .programs.men-trending .program .second-left-img{
+        width: 430px;
+        height: 465px;
+        margin-bottom: -40px;
+    }
+    .programs.men-trending .program .second-right-img{
+        width: 430px;
+        height: 465px;
+    }
+    .programs.men-trending .program .caption{
+        margin: auto;
+        padding-bottom: 60px;
+        font-size: 20px;
+    }
+    .carousel-item-padding-40-px{
+        /* border: 1px solid red; */
+        height: 200px;
+        width: 200px;
+        margin-left: -5px;
+        position: absolute;
+    }
+    .carousel-item-padding-40-px div img{
+        /* border: 5px solid greenyellow; */
+        height: 250px;
+        width: 100px;
+    }
+    .carousel-item-padding-40-px .carousel_img1{
+        margin: 0;
+        /* padding: 0; */
+    }
+    .classics-container .men-classics{
+        width: 300px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        font: 30px "Helvetica Now Display Medium";
+    }
+
+    .essential-container .men-programs{
+        display: block;
+        align-items: center;
+    }
+
+    .essential-container .men-programs .program{
+        width: 90%;
+        margin-left: 15px;
+        margin-bottom: 50px;
     }
 }

@@ -34,7 +34,7 @@ const Classics = (props) => {
   return (
     <div className='classics classics-images'>
       <div className="classics-section">
-        <h2>SHOP BY CLASSICS</h2>   
+        <h2 className="classics-header">SHOP BY CLASSICS</h2>   
       </div>  
       <Carousel 
         className="popular-images" 
