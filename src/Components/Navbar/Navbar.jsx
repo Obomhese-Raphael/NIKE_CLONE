@@ -19,7 +19,8 @@ const Navbar = () => {
   };
 
   const toggleMenu = () => {
-    mobileMenu ? setMobileMenu(false) : setMobileMenu(true)
+    // mobileMenu ? setMobileMenu(false) : setMobileMenu(true)
+    setMobileMenu(!mobileMenu)
   }  
 
   return (

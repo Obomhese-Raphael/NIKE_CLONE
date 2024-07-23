@@ -105,9 +105,9 @@
 
 @media (max-width: 600px) {
     .navbar-items{
-        width: 430px;
         background: #fff;
         position: fixed;
+        width: 100%;
         margin-bottom: 40px;
     }
     .navbar-left-item .logo{
@@ -131,7 +131,7 @@
     .hide-mobile-menu{
         width: -200px;
         display: none;
-        transition: .45s
+        transition: .45s;
     }
     .navbar-center-items ul li {
         display: block;

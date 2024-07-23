@@ -53,7 +53,7 @@ const Footer = () => {
             <div className="section5">
                 <img className="globe" src={globe_logo} alt="" />
                 <p>United States</p>
-            </div>
+            </div>  
         </div>
         <div className="bottom-footer">
             <div className="ul">

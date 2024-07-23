@@ -43,7 +43,7 @@ h4{
     height: 30px;
 }
 
-.section5{
+.top-footer .section5{
     display: flex;
     margin-top: 25px;
 }
@@ -95,9 +95,6 @@ select{
         text-align: center;
         align-items: center;
     }
-    .section5{
-        display: inline-block;
-    }
     .bottom-footer ul{
         display: block;
     }
@@ -106,6 +103,14 @@ select{
     }
     .flex img{
        display: none;
+    }
+    .top-footer .section5{
+        text-align: center;
+        /* border: 1px solid red; */
+        display: inline-flex;
+    }
+    .top-footer h4{
+        margin-bottom: 10px;
     }
 }
 
