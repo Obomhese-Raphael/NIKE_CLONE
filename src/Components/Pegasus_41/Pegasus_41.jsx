@@ -4,8 +4,9 @@ import img_2 from "../../assets/img-2.jpg"
 import img_3 from "../../assets/img-3.jpg"
 import img_4 from "../../assets/img-4.jpg"
 import image_roll from "../../assets/img-5.jpg"
+import { Link } from "react-router-dom"
 
-const Pegasus_41 = () => {
+const Pegasus_41 = () => {  
   return (
     <div className="pegasus">
       <div className="head-section">
@@ -31,7 +32,7 @@ const Pegasus_41 = () => {
       </div>
       <div className="other-section">
         <h2>NEW THIS WEEK</h2>
-        <button className="shop-btn">Shop New Arrivals</button>
+        <button className="shop-btn"><Link to="/new">Shop New Arrivals</Link></button>
       </div>
       <div className="other-bottom-section">
         <img src={image_roll} className="img-roll" />

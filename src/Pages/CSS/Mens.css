@@ -8,6 +8,9 @@
 *{
     max-width: 100%;
 }
+.men-container .essential-container{
+    margin-top: 400px;
+}
 .men-container .men{
     display: flex;
     font: 24px "Helvetica Now Display Medium";
@@ -323,30 +326,6 @@
         padding-bottom: 60px;
         font-size: 20px;
     }
-    .carousel-item-padding-40-px{
-        /* border: 1px solid red; */
-        height: 200px;
-        width: 200px;
-        margin-left: -5px;
-        position: absolute;
-    }
-    .carousel-item-padding-40-px div img{
-        /* border: 5px solid greenyellow; */
-        height: 250px;
-        width: 100px;
-    }
-    .carousel-item-padding-40-px .carousel_img1{
-        margin: 0;
-        /* padding: 0; */
-    }
-    .classics-container .men-classics{
-        width: 300px;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 10px;
-        font: 30px "Helvetica Now Display Medium";
-    }
 
     .essential-container .men-programs{
         display: block;
@@ -359,3 +338,4 @@
         margin-bottom: 50px;
     }
 }
+

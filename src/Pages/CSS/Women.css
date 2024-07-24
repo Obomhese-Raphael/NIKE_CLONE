@@ -14,6 +14,19 @@
     margin-left: 50px;
 }
 
+.women-container .women{
+    display: flex;
+    font: 24px "Helvetica Now Display Medium";
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.women-container .essential-container {
+    border: 4px solid red;
+    border: none;
+    margin-top: 400px;
+}
+
 .women-container .program img {
     width: 100%;
     height: 100vh;
@@ -191,7 +204,7 @@
     margin-left: 200px;
     display: flex;
     font: 24px "Helvetica Now Display Medium";
-    margin-bottom: -20px;
+    margin-bottom: 20px;
     margin-left: 20px;
 }
 

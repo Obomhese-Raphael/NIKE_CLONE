@@ -13,6 +13,10 @@ const Signup = () => {
     return re.test(String(email).toLowerCase());
   };
 
+  const handleReload = () => {
+    window.location.reload();
+  };
+
   const handleSubmit = (event) => {
     event.preventDefault();
     const email = event.target.elements.email.value;
@@ -51,7 +55,7 @@ const Signup = () => {
         />
         <p className={errorMessage ? "error-message" : ""}>{errorMessage}</p>
         <p className={successMessage ? "success-message" : ""}>{successMessage}</p>
-        <button className="continue" type="submit">
+        <button className="continue" onClick={handleReload} type="submit">
           Submit
         </button>
       </form>

@@ -15,7 +15,7 @@ const Women = () => {
        <div className='programs women-explore'>
             <div className="program">
                 <img src={left_image} className="left-img" alt="" />
-                <div className="caption">   
+                <div className="caption">  
                     <p className="p">Running</p>
                     <button>Shop</button>
                 </div>

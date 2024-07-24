@@ -103,12 +103,20 @@
     color: white;
 }
 
+.sign-up{
+    display: none;
+}
+
 @media (max-width: 600px) {
+    .sign-up{
+        display: block;
+    }
     .navbar-items{
         background: #fff;
         position: fixed;
         width: 100%;
         margin-bottom: 40px;
+        border: 1px solid #ccc;
     }
     .navbar-left-item .logo{
         margin-left: -20px;
@@ -135,7 +143,7 @@
     }
     .navbar-center-items ul li {
         display: block;
-        margin-top: 50px;
+        margin-top: 30px;
         align-items: center;
         transition: .45s;
         overflow: hidden;

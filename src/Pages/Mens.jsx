@@ -70,7 +70,10 @@ const Mens = () => {
                 <p className="under_name">Accessories</p>
             </div>
         </div>
-        </div>      
+        </div>  
+
+        <div className="classics-container">
+        </div>    
     </div>
   )
 }

@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import "./CSS/ShopCategory.css"
-// import dropdown_icon from "../assets/dropdown_icon.png"
 
 const ShopCategory = (props) => {
 

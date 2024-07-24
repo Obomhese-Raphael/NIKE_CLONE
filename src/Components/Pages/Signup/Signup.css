@@ -11,7 +11,7 @@
     background: #fff;
     padding: 20px;
     margin: 3% auto 0;
-    height: 90%;
+    height: 90%;   
     text-align: left;
 }
 .sign-up-form .msg{
@@ -78,4 +78,11 @@
     color: green;
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .signup{
+        width: 100%;
+        margin-top: 50px;
+    }
 }

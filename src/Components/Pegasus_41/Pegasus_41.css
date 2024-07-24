@@ -102,16 +102,20 @@
 
 @media (max-width: 600px) {
     .head-section h1{
-        font-size: 45px;
+        font: 40px "Helvetica Now Display Medium";
         margin-top: 20px;
+    }
+    .head-section p{
+        font: 15px "Helvetica Now Display Medium";
+        padding: 10px;
     }
     .bottom-section{
         margin-top: -40px;
     }
     .other-section h2{
-        font-size: 45px;
+        font: 40px "Helvetica Now Display Medium";
     }
     .other-section button{
-        margin-top: -10px;
+        margin-top: 10px;
     }
 }

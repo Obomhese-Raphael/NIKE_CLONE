@@ -8,22 +8,13 @@
     margin-top: 30px;
 }
 .shopcategory-indexSort h1{
-    font-weight: 700;
+    font-weight: 700;  
     font-size: 70px;
 }
 .shopcategory-indexSort p{
     line-height: 1.6;
     margin-top: 10px;
     text-align: center;
-}
-.sort{
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-top: 100px;
-    font-weight: bold;
 }
 
 .shopcategory-products {
@@ -34,17 +25,31 @@
     width: 70%;
     align-items: center;
 }
+
+.shopcategory-indexSort .btns{
+    display: block;
+    
+}
+
 .shopcategory-indexSort .btns button{
     color: #fff;
     background-color: #000;
-    margin-left: 10px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
     padding: 10px 20px;
     border-radius: 50px;
     border: none;
     margin-top: 10px;
     cursor: pointer;
     margin-bottom: 50px;
+    margin-left: 20px;
 }
+
+.shopcategory-indexSort .btns button:hover{
+    background: #000;
+}
+
 .shopcategory-loadmore {
     display: flex;
     justify-content: center;

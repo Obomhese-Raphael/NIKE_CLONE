@@ -10,6 +10,8 @@ import { Link } from "react-router-dom"
 
 const Navbar = () => {
 
+  
+
   const [isFilled, setIsFilled] = useState(false); 
   const [mobileMenu, setMobileMenu] = useState(false);
   const [count, setCount] = useState(0)
@@ -19,7 +21,6 @@ const Navbar = () => {
   };
 
   const toggleMenu = () => {
-    // mobileMenu ? setMobileMenu(false) : setMobileMenu(true)
     setMobileMenu(!mobileMenu)
   }  
 
@@ -31,11 +32,12 @@ const Navbar = () => {
         </div>
         <div className={mobileMenu ? "hide-mobile-menu" : "navbar-center-items"}>
             <ul className="ul">
-                <li><a href=""><Link to="/">Shop</Link></a></li>
-                <li><a href="">New & Featured</a></li>
-                <li><a href=""><Link style={{textDecoration: "none"}} to="/mens">Mens</Link> </a></li>
-                <li><a href=""><Link style={{textDecoration: "none"}} to='/womens'>Womens</Link> </a></li>
-                <li><a href=""><Link style={{textDecoration: "none"}} to='/kids'>Kids</Link>  </a></li> 
+                <li><a href=""><Link onClick={window.scrollTo(0, 0)} to="/">Shop</Link></a></li>
+                <li><a href=""><Link onClick={window.scrollTo(0, 0)} to="/new">New & Featured</Link></a></li>
+                <li><a href=""><Link onClick={window.scrollTo(0, 0)} style={{textDecoration: "none"}} to="/mens">Mens</Link> </a></li>
+                <li><a href=""><Link onClick={window.scrollTo(0, 0)} style={{textDecoration: "none"}} to='/womens'>Womens</Link> </a></li>
+                <li><a href=""><Link onClick={window.scrollTo(0, 0)} style={{textDecoration: "none"}} to='/kids'>Kids</Link>  </a></li> 
+                <li className="sign-up"><a href=""><Link onClick={window.scrollTo(0, 0)} style={{textDecoration: "none"}} to='/signup'>Signup</Link>  </a></li> 
                 <li><img src={search_img} className="dropdown-search-img"/></li>
             </ul>
         </div>
