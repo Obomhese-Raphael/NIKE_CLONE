@@ -243,6 +243,15 @@
     width: -301px;
 }
 
+.cs{
+    margin-top: 100px;
+    margin-left: 200px;
+    display: flex;
+    font: 24px "Helvetica Now Display Medium";
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
 
 @media (max-width: 600px) {
     .container h2 {

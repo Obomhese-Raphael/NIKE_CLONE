@@ -14,7 +14,7 @@ const Membership = () => {
                     <p className="p">Member Product</p> <br />
                     <p className="p2">Your Exclusive Access</p>
                     <button>Shop</button>
-                </div>   
+                </div>      
             </div>
             <div className="program">
                 <img src={img_7} alt="" />

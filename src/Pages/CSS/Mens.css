@@ -290,6 +290,10 @@
     margin-left: 100px;
 }
 
+.classics-container{
+    margin-bottom: 100px;
+}
+
 @media (max-width: 600px) {
     .men-container .men {
         font-size: 30px;

@@ -6,6 +6,7 @@ import second_right_image from "../assets/women-s-shoes-clothing-accessories (3)
 import essential_first_image from "../assets/women-s-shoes-clothing-accessories (4).jpeg"
 import essential_second_image from "../assets/women-s-shoes-clothing-accessories (5).jpeg"
 import essential_third_image from "../assets/women-s-shoes-clothing-accessories (6).jpeg"
+import HomeCarousel from "../Components/HomeCarousel/HomeCarousel"
 
 const Women = () => {
     
@@ -67,7 +68,8 @@ const Women = () => {
                 <p className="under_name">Bra & Leggings</p>
             </div>
         </div>
-        
+            <h2 className="cs">Classic Spotlight</h2>
+            <HomeCarousel />        
         </div>
     </div>
   )

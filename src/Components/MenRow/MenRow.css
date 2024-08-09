@@ -16,12 +16,11 @@
     font-weight: bold;
 }
 
-.men-row .top-footer p {
-    line-height: 30px;
-    color: #6d6a6a;
-    font-size: 15px;
+.footer-container .top-footer p{
     cursor: pointer;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: normal;
+    color: #6d6a6a;
 }
 
 .top-footer p:hover {

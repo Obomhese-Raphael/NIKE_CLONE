@@ -1,14 +1,12 @@
 /* eslint-disable react/prop-types */
-import { useContext } from 'react'
 import "./ProductDisplay.css"
 import star_icon from "../../assets/star_icon.png"
 import star_dull_icon from "../../assets/star_dull_icon.png"
-import { ShopContext } from '../../Context/ShopContext'
 import arrow_icon from "../../assets/dropdown_icon (2).png"
 
-const ProductDisplay = (props) => {
+const ProductDisplay = (props) => {   
+
     const { product } = props
-    const { addToCart } = useContext(ShopContext)
 
   return (
     <div className='productdisplay'>
@@ -51,11 +49,15 @@ const ProductDisplay = (props) => {
             </div>
         </div>
         <div className="btns">
-            <button onClick={() => {addToCart(product.id)}} className='cart-btn'>ADD TO CART</button>
+            <button className='cart-btn'>ADD TO CART</button>
             <button>FAVORITES</button>
         </div>
         <div className="productdetails">
             <p className='p'>SHIPPING & RETURNS</p> <img src={arrow_icon} className='drop-icon' alt="" />
+        </div>
+        <hr className='hr'/>
+        <div className="productdetails">
+            <p className='p'>REVIEWS</p> <img src={arrow_icon} className='drop-icon' alt="" />
         </div>
         <hr className='hr'/>
       </div>

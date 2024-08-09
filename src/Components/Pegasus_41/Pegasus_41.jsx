@@ -5,7 +5,7 @@ import img_3 from "../../assets/img-3.jpg"
 import img_4 from "../../assets/img-4.jpg"
 import image_roll from "../../assets/img-5.jpg"
 import { Link } from "react-router-dom"
-
+  
 const Pegasus_41 = () => {  
   return (
     <div className="pegasus">

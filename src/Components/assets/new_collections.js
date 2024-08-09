@@ -105,7 +105,7 @@ let new_collections = [
   {
     id: 4,
     text: "Just In",
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Nike Spiderverse",
     image: p4_img,
     new_price: 100.0,
     old_price: 150.0,
@@ -121,7 +121,7 @@ let new_collections = [
   {
     id: 6,
     text: "Just In",
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Nike Spiderverse",
     image: p6_img,
     new_price: 85.0,
     old_price: 120.5,

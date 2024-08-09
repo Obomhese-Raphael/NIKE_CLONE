@@ -34,7 +34,6 @@
 .btns{
     display: flex;
     gap: 50px;
-    cursor: pointer;
 }
 .btns button:hover{
     background: #d23434;
@@ -136,10 +135,11 @@
     justify-content: space-between;
     margin-bottom: -20px;
     cursor: pointer;
+    width: 100%;
 }
 
 .productdetails p{
-    font: 17px "Helvetica Now Display Medium";
+    font: 15px "Helvetica Now Display Medium";
     padding-left: 25px;
 }
 

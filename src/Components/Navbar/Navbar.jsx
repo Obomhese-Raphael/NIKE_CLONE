@@ -9,12 +9,9 @@ import { useState } from "react"
 import { Link } from "react-router-dom"
 
 const Navbar = () => {
-
   
-
   const [isFilled, setIsFilled] = useState(false); 
   const [mobileMenu, setMobileMenu] = useState(false);
-  const [count, setCount] = useState(0)
 
   const handleClick = () => {
     setIsFilled(!isFilled);
@@ -50,9 +47,10 @@ const Navbar = () => {
               alt="Love"
               onClick={handleClick}
             />
-            <Link><img src={cart_img} onClick={() => setCount(count + 1)} className="cart-img" /></Link>
-            <div className="nav-cart-count">{count}</div>
+            <Link to="./cart"><img src={cart_img} className="cart-img" /></Link>
+            <div className="nav-cart-count">{0}</div>
         </div>
+        <img src={search_img} className="search_icon" alt="" />
         <img src={dropdown_icon} className='menu_icon dropdown_menu' onClick={toggleMenu}/>
       </div>
     </div>

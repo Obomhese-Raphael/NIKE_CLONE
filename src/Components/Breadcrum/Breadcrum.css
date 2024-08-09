@@ -13,6 +13,14 @@
     gap: 10px;
 }
 
+.breadcrum p{
+    cursor: pointer;
+}
+
+.breadcrum .link:hover{
+    color: #000;
+}
+
 .breadcrum p img{
     width: 7px;
 }

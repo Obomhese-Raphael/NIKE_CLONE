@@ -14,7 +14,7 @@
 
 .item-container{
     width: 90%;
-    height: 90vh;
+    height: 78vh;
     margin: auto;
     margin-bottom: 10px;
     box-sizing: border-box;
@@ -34,6 +34,7 @@
     width: 100%;
     margin-bottom: 30px;
     height: 60vh;
+    border-bottom: 1px solid #ccc;
 }
 
 .item p {
@@ -74,6 +75,7 @@
         flex-wrap: wrap;
         border: 1px solid #ccc;
         margin-bottom: 10px;
+        height: 80vh;
     }
     .item-container .item-prices{
         font-size: 14px;

@@ -35,9 +35,7 @@ const KidsRow = () => {
                 <p>Baby & Toddlers</p>
                 <p>Pre-School</p>
                 <p>Grade School</p>
-            </div>
-
-            
+            </div>            
         </div>
     </div>
     </div>

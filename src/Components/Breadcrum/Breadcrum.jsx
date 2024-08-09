@@ -9,10 +9,10 @@ const Breadcrum = (props) => {
 
   return (
     <div className='breadcrum'>
-      <p><Link to="/"> HOME</Link> <img src={arrow_icon} alt="" /> <Link to="/new">  NEW & FEATURED</Link> <img src={arrow_icon} alt="" /> {capitalizedProductName}</p>
+      <p><Link to="/" className="link"> HOME</Link> <img src={arrow_icon} alt="" /> <Link className="link" to="/new">  NEW & FEATURED</Link> <img src={arrow_icon} alt="" /> {capitalizedProductName}</p>
     </div>
   )
 }
 
 export default Breadcrum 
-  
+       
