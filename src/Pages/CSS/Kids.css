@@ -1,8 +1,10 @@
+
 .kids-container .program img {
     width: 100%;
     height: 100vh;
     display: block;
 }
+
 .essential-container .kids-programs {
     margin: 10px auto;
     width: 90%;
@@ -13,7 +15,6 @@
 }
 
 .kids-container .essential-container {
-    border: 4px solid red;
     border: none;
     margin-top: 350px;
 }
@@ -25,6 +26,11 @@
     margin-left: 50px;
     padding-top: 50px;
     padding-bottom: 20px;
+}
+
+.essential-container .kids.essential.kids-header{
+    font-size: 25px;
+    padding-top: 50px;
 }
 
 
@@ -80,46 +86,57 @@
     margin-bottom: 50px;
 }
 
-.carousel{
+.carousel {
     margin-top: 100px;
 }
-.carousel_1{
+
+.carousel_1 {
     margin-bottom: 100px;
 }
-.carousel .kids{
+
+.carousel .kids {
     margin-bottom: 20px;
 }
 
-.popular-images{
+.popular-images {
     width: 100%;
 }
-.popular-images div{
+
+.popular-images div {
     display: flex;
     margin-left: 30px;
     justify-content: space-evenly;
 }
-.popular-images div img{
+
+.popular-images div img {
     width: 100%;
     margin-top: -50px;
 }
 
-.sizes-images{
+.sizes-images {
     width: 100%;
     padding-top: 30px;
 }
-.sizes-images div{
+
+.sizes-images div {
     display: flex;
     margin-left: 30px;
     justify-content: space-evenly;
 }
-.sizes-images div img{
+
+.sizes-images div img {
     width: 100%;
     margin-top: -50px;
 }
 
 
-.essential-container .kids{
+.essential-container .kids-header {
     margin-top: 150px;
+    margin-bottom: -10px;
+    /* border: 5px solid red; */
+    padding: 0;
+    padding-bottom: 30px;
+    font-size: 25px;
 }
 
 
@@ -171,7 +188,7 @@
     font-weight: 900;
 }
 
-.under_under{
+.under_under {
     display: flex;
     border-bottom: 2px solid #000;
     width: 40px;
@@ -197,46 +214,76 @@
     margin-top: -50px;
 }
 
+.popular-container {
+    margin-top: -70px;
+}
 
-.popular-container .header-kids{
+.popular-container .header-kids {
     margin-bottom: -20px;
 }
 
-.sizes-container .kids{
-    margin-bottom: -20px;
+.sizes-container .kids.sizes-header {
+    font-size: 25px;
+    margin-top: 5px;
+    padding: 0px;
+    margin-bottom: -10px;
 }
 
-.classics-container .mini-header{
+.classics-container .mini-header {
     margin-bottom: -10px
 }
 
 @media (max-width: 600px) {
-    .kids-container .kids {
-        font-size: 30px;
+    .kids-container .trending-header {
+        font-size: 25px;
+        margin: -10px 5px;
     }
-    .programs.kids-explore .program{
+
+    .kids-container .programs.kids-explore .program {
         width: 100%;
-        margin: auto;
+        margin: 0;
+        padding: 0;
+        margin-bottom: -40px;
     }
-    .programs.kids-explore .program img {
+
+    .kids-container .programs.kids-explore .program img {
         width: 100%;
         height: 465px;
     }
-    .programs.kids-explore .program img {
+
+    .kids-container .programs.kids-explore .program img {
         width: 100%;
         height: 465px;
     }
-    .essential-container .kids-programs{
+
+    .kids-container .essential-container {
+        margin-top: -100px;
+    }
+
+    .kids-container .essential-container .kids-programs {
         display: block;
         align-items: center;
     }
 
-    .essential-container .kids-programs .program{
-        width: 90%;
-        margin-left: 15px;
+    .kids-container .essential-container .kids-programs .program {
+        /* border: 5px solid red; */
         margin-bottom: 50px;
     }
-    .sizes-container .sizes-header{
+
+    .kids-container .program.program_1 {
+        outline: none;
+        border-radius: 10px;
+        padding: none;
+        margin-bottom: 100px;
+    }
+
+    .essential-container .kids-programs .program {
+        width: 90%;
+        margin-left: 15px;
+        /* margin-bottom: 50px; */
+    }
+
+    .sizes-container .sizes-header {
         font-size: 30px;
         width: 100%;
         height: 10vh;

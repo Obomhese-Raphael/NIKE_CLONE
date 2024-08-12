@@ -8,17 +8,18 @@ import KidsCarousel from "../Components/KidsCarousel/KidsCarousel";
 import SizesCarousel from "../Components/SizesCarousel/SizesCarousel";
 import MoreExplore from "../Components/MoreExplore/MoreExplore";
 import HomeCarousel from "../Components/HomeCarousel/HomeCarousel";
+import { Link } from "react-router-dom";
 
 const Kids = () => {
   return (
     <div className="kids-container">
-      <p className="kids">Trending</p>
+      <p className="kids trending-header">Trending</p>
       <div className="programs kids-explore">
-        <div className="program">
+        <div className="program program_1">
           <img src={left_image} className="left-image" alt="" />
           <div className="caption">
             <p className="p">New Arrivals</p>
-            <button>Shop</button>
+            <button><Link to="/new">Shop</Link></button>
           </div>
         </div>
         <div className="program">
@@ -28,10 +29,10 @@ const Kids = () => {
             <button>Shop</button>
           </div>
         </div>
-      </div>
+      </div>   
 
       <div className="essential-container">
-        <p className="kids essential kids-header">Explore</p>
+        <p className="kids essential kids-header explore-header">Explore Here</p>
         <div className="kids-programs">
           <div className="program">
             <img src={essential_first_image} alt="" />
@@ -45,7 +46,7 @@ const Kids = () => {
           <div className="program">
             <img src={essential_second_image} alt="" />
             <p className="under_name">Nike Fleece</p>
-            <p className="under_under">
+            <p className="under_under">   
               <a href="#" className="shop-link">
                 Shop
               </a>
@@ -60,7 +61,7 @@ const Kids = () => {
               </a>
             </p>
           </div>
-        </div>
+        </div>   
       </div>
 
       <div className="popular-container">

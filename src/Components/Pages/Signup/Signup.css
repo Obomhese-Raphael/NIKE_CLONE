@@ -45,7 +45,6 @@
     outline: 2px solid green;
     transition: .1s ease;
     z-index: 1111;
-    position: relative;
 }
 
 .terms{

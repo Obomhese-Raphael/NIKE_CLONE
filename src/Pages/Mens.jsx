@@ -15,7 +15,7 @@ const Mens = () => {
   return (
     <div className="men-container">
       <p className="men">Explore Sport</p>
-      <div className="programs men-explore">
+      <div className="programs programs-2 men-explore">
         <div className="program">
           <img src={left_image} className="left-img" alt="Mmbappe Image" />
           <div className="caption">
@@ -23,9 +23,9 @@ const Mens = () => {
             <button>Shop</button>
           </div>
         </div>
-        <div className="program men-explore">
+        <div className="program">
           <img src={right_image} className="right-img" alt="" />
-          <div className="caption">
+          <div className="caption">   
             <p className="p">Basketball</p>
             <button>Shop</button>
           </div>

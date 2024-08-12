@@ -18,7 +18,7 @@ const Home = () => {
           <h1>EXPLORE NEW PRODUCTS</h1>
           <button className="shop-btn">Shop New Arrivals</button>
         </div>
-        <h2 className="h2">SHOP BY CLASSICS</h2>
+        <h2 className="by-classics">SHOP BY CLASSICS</h2>
       </div>
       <HomeCarousel />
       <HomeRow />

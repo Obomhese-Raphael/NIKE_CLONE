@@ -22,7 +22,7 @@ const SizesCarousel = () => {
       items: 2,
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 464, min: 0 },   
       items: 1,
     },
   };
@@ -50,7 +50,7 @@ const SizesCarousel = () => {
           <div className="inner-card">
             <h3>Teens</h3>
             <p>Explore apparel (XS - XL) and Shoes (3.5-7Y)</p>
-            <button>Shop</button>
+            <button>Shop</button>   
           </div>
         </div>
         <div className="kids-card">

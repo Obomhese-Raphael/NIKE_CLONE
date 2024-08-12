@@ -38,7 +38,7 @@ const Signup = () => {
       <p className="msg">Enter your email to join us or sign <br /> in.</p>
       <div className="select">
         <p className="ngn">
-          <a href="#">Nigeria</a>
+          <a href="#">Nigeria</a>   
         </p>
         <a className="change" href="">
           Change

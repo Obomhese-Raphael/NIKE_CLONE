@@ -31,7 +31,7 @@ const Women = () => {
         </div>
 
         <div className="trending-container">
-          <p className="women">Trending</p>
+          <p className="women">Trending</p>  
           <div className='programs women-explore'>
             <div className="program">
                 <img src={second_left_image} className="second-left-img" alt="" />
