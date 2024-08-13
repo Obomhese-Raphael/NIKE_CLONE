@@ -10,7 +10,8 @@
 }
 
 .kids-card img{
-    width: 85%;
+    width: 80%;
+    border: 1px solid #ccc;
 }
 
 .inner-card {
@@ -34,4 +35,26 @@
     text-align: justify;
     margin-left: 10px;
     color: #6d6d6d;
+}
+
+
+@media (max-width: 600px) {
+    .carousel{
+        width: 100%;
+        padding: 0px;
+    }
+
+    .kids-card{
+        width: 90%;
+        text-align: center;
+    }
+
+    .kids-card img{
+        align-items: center;
+    }
+
+    .kids-card .inner-card{
+        display: flex;
+        align-items: start;
+    }
 }

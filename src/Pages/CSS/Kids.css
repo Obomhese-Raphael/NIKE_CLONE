@@ -22,7 +22,7 @@
 .kids-container .kids {
     display: flex;
     font: 24px "Helvetica Now Display Medium";
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     margin-left: 50px;
     padding-top: 50px;
     padding-bottom: 20px;
@@ -30,7 +30,8 @@
 
 .essential-container .kids.essential.kids-header{
     font-size: 25px;
-    padding-top: 50px;
+    padding-top: 70px;
+    margin-bottom: 10px;
 }
 
 
@@ -219,7 +220,14 @@
 }
 
 .popular-container .header-kids {
-    margin-bottom: -20px;
+    margin-bottom: 5px;
+    padding: 0px;
+    padding-top: 10px;
+}
+
+.essential-container.explore-here{
+    /* border: 5px solid red; */
+    margin-bottom: 150px;
 }
 
 .sizes-container .kids.sizes-header {

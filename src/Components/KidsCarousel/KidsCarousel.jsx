@@ -1,7 +1,6 @@
 import "./KidsCarousel.css"
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import essential from "../assets/essentials";
 import shoe1 from "../../assets/kidspopular_1.png";
 import shoe2 from "../../assets/kidspopular_2.png";
 import shoe3 from "../../assets/kidspopular_3.png";
@@ -21,24 +20,27 @@ const KidsCarousel = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3.5,
+      items: 4,  
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
+      items: 1,
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 650, min: 0 },
       items: 1,
     },
   };
 
-  console.log(essential[0]);
-
   return (
     <>
-      <Carousel responsive={responsive}>
-        <div className="kids-card">
+      <Carousel
+        containerClass="carousel-container"
+        dotListClass="custom-dot-list-style"
+        itemClass="carousel-item-padding-40-px"
+        responsive={responsive}
+      >
+        <div className="kids-card all-container">
           <img src={shoe1} alt="product-image" />
           <div className="inner-card">
             <h3>Nike Presto</h3>

@@ -2,7 +2,7 @@ import "./MoreExplore.css"
 
 const MoreExplore = () => {
   return (
-    <div>
+    <div>   
       <div className="explore-container essential-container">
         <p className="kids kids-header">More to Explore</p>
         <div className="programs kids-explore">

@@ -18,7 +18,7 @@
 
 .explore-container .programs.kids-explore{
     height: 100%;
-    position: relative
+    position: relative;
 } 
 
 .explore-container .program img {
@@ -26,6 +26,10 @@
     height: 70vh;
     display: block;
     border-radius: 0px !important;
+}
+
+.explore-container .programs .program .under_under{
+    margin-bottom: 50px;
 }
 
 .explore-container .program {

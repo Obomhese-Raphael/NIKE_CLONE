@@ -18,7 +18,7 @@ const Kids = () => {
         <div className="program program_1">
           <img src={left_image} className="left-image" alt="" />
           <div className="caption">
-            <p className="p">New Arrivals</p>
+            <p className="p">New Arrivals</p>  
             <button><Link to="/new">Shop</Link></button>
           </div>
         </div>
@@ -31,7 +31,7 @@ const Kids = () => {
         </div>
       </div>   
 
-      <div className="essential-container">
+      <div className="essential-container explore-here">
         <p className="kids essential kids-header explore-header">Explore Here</p>
         <div className="kids-programs">
           <div className="program">
