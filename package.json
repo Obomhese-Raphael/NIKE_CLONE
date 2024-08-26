@@ -10,9 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "carousel": "^0.0.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-multi-carousel": "^2.8.5",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.24.1"
   },
   "devDependencies": {
