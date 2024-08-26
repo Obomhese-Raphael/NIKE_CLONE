@@ -9,8 +9,13 @@ const Signup = () => {
   const [emails, setEmails] = useState([]);
 
   const validateEmail = (email) => {
-    const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    const re =
+      /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
+  };
+
+  const handleReload = () => {
+    window.location.reload();
   };
 
   const handleSubmit = (event) => {
@@ -31,7 +36,9 @@ const Signup = () => {
     <div className="signup sign-up-form">
       <img src={nike_logo} className="signup-nike" alt="" />
       <img src={jordan_logo} className="signup-jordan" alt="" />
-      <p className="msg">Enter your email to join us or sign <br /> in.</p>
+      <p className="msg">
+        Enter your email to join us or sign <br /> in.
+      </p>
       <div className="select">
         <p className="ngn">
           <a href="#">Nigeria</a>
@@ -50,8 +57,10 @@ const Signup = () => {
           list="pastEmails"
         />
         <p className={errorMessage ? "error-message" : ""}>{errorMessage}</p>
-        <p className={successMessage ? "success-message" : ""}>{successMessage}</p>
-        <button className="continue" type="submit">
+        <p className={successMessage ? "success-message" : ""}>
+          {successMessage}
+        </p>
+        <button className="continue" onClick={handleReload} type="submit">
           Submit
         </button>
       </form>

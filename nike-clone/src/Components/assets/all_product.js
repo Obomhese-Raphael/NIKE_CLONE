@@ -204,7 +204,7 @@ let all_product = [
     },
     {
         id: 25,
-        name: "Clothes",
+        name: "Clothes for Women",
         image: womenshoes_5,
         new_price: 50.0,
         old_price: 80.5,

@@ -1,11 +1,10 @@
 /* eslint-disable react/prop-types */
-import "./Trending.css"
+import "./Trending.css";
 
 const Trending = (props) => {
   return (
-    <div className='trending'>
+    <div className="trending">
       <div className="trending-imgs">
-
         <div className="trending-img">
           <img src={props.image} alt="Soccer" />
           <div className="trending-img-text">
@@ -22,10 +21,9 @@ const Trending = (props) => {
             <button>{props.button_name}</button>
           </div>
         </div>
-        
       </div>
     </div>
-  )
-}   
+  );
+};
 
-export default Trending
+export default Trending;

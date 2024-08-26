@@ -9,9 +9,9 @@ This project is the frontend portion of an e-commerce website for Nike products.
 
 ## Setup Instructions
  
-1. Clone the repository - git clone
-2. Install the dependencies
-3. Start the development Server
+1. Clone the repository - ``git clone``
+2. Install the dependencies - ``npm install``
+3. Start the development Server ``npm run dev``
 
 
 ## Contribution Guidelines
